@@ -1,0 +1,14 @@
+[package]
+name = "wellknown-worker-rs"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+axum = { version = "0.8.8", default-features = false, features = ['query'] }
+http = "1.4.0"
+serde = "1.0.228"
+tower-service = "0.3.3"
+worker = { version = "0.7.2", features = ['http', 'axum'] }
