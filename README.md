@@ -1,7 +1,7 @@
 # wellknown-worker-rs
 ⚠️ Horrible code quality ahead, this is just a small project written to get me back into Rust that gets the job done well-enough for my personal site. Not production-ready.
 
-This is a [Cloudflare Worker](https://developers.cloudflare.com/workers/) project that exists so that the [.well-known](https://en.wikipedia.org/wiki/Well-known_URI) services on my website remain accessible while my host server is down
+This is a [Cloudflare Worker](https://developers.cloudflare.com/workers/) project that exists so that the [.well-known](https://en.wikipedia.org/wiki/Well-known_URI) services [on my website](https://catpowered.net/.well-known/security.txt) remain accessible while my host server is down
 
 ## Features
 - security.txt
