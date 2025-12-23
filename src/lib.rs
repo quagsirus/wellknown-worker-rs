@@ -6,6 +6,11 @@ mod handlers;
 
 fn router() -> Router {
     Router::new()
+        .route("/.well-known/openpgpkey/policy", get(|| async { "" }))
+        .route(
+            "/.well-known/openpgpkey/hu/{localpart}",
+            get(handlers::web_key_directory),
+        )
         .route(
             "/.well-known/security.txt",
             get(|| async { include_str!("security.txt") }),

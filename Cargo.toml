@@ -9,6 +9,13 @@ crate-type = ["cdylib"]
 [dependencies]
 axum = { version = "0.8.8", default-features = false, features = ['query'] }
 http = "1.4.0"
+phf = "0.13.1"
 serde = "1.0.228"
 tower-service = "0.3.3"
 worker = { version = "0.7.2", features = ['http', 'axum'] }
+
+[build-dependencies]
+pgp = "0.18.0"
+phf_codegen = "0.13.1"
+sha1 = "0.10.6"
+zbase32 = "0.1.2"
