@@ -1,4 +1,8 @@
 # ⚠️ WHY ARE YOU USING PGP
+
+### I don't use this myself, and you shouldn't either!
+I only wrote this so I could fuck around with a bad WKD lookup implementation.
+
 ### "[entity] requires me to, and I can't ask them to use something else" is the *only* good reason
 seriously, please think about using something else.
 
