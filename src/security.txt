@@ -1,4 +1,3 @@
-Canonical: https://catpowered.net/.well-known/security.txt
-Contact: mailto:avery@catpowered.net
+Contact: mailto:security@example.com
 Expires: 2030-01-01T00:00:00Z
 Preferred-Languages: en
